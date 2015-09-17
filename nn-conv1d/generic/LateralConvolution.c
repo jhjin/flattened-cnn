@@ -49,7 +49,7 @@ static int nnconv1d_(LateralConvolution_updateOutput)(lua_State *L)
       // fill biases
       int i;
       for (i = 0; i < nOutputPlane; i++)
-         THVector_(fill)(output_t->storage->data+output->storageOffset+output_t->stride[0]*i,
+         THVector_(fill)(output_t->storage->data+output_t->storageOffset+output_t->stride[0]*i,
                          THTensor_(get1d)(bias, i), outputHeight*outputWidth);
 
       // convolve
