@@ -2,14 +2,14 @@ package = "nnconv1d"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/jhjin/nn-conv1d.git",
+   url = "git://github.com/jhjin/flattened-cnn.git",
 }
 
 description = {
    summary = "1D Convolutions for Torch nn",
    detailed = [[
    ]],
-   homepage = "https://github.com/jhjin/nn-conv1d",
+   homepage = "https://github.com/jhjin/flattened-cnn",
    license = "MIT"
 }
 
